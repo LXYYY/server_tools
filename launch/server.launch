@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find kobuki_keyop)/launch/keyop.launch" />
+
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find server_tools)/rviz/rplidar.rviz" />
+</launch>

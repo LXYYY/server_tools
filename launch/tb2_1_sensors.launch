@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find server_tools)/launch/tb2_1_rplidar.launch" />
+  <include file="$(find server_tools)/launch/tb2_1_kinect2.launch" />
+</launch>
